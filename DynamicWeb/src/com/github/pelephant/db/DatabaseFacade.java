@@ -12,7 +12,7 @@ public class DatabaseFacade {
 	public static List<String> getBooks() {
 		List<String> result = new ArrayList<String>();
 		
-		try (Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "qwerty_01")) {
+		try (Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "1234")) {
 			System.out.println("Java JDBC PostgreSQK Example");
 			System.out.println("Connected to PostgreSQL database!");
 			
